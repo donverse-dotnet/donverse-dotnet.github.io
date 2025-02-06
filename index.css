@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "oswald-bold";
+    src: url(./assets/Oswald-Bold.ttf) format(truetype);
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* 画面の高さ全体を使用 */
+    margin: 0;
+    text-align: center;
+}
+
+.osald-bold {
+    font-family: "oswald-bold";
+}
+
+
+.content {
+    height: 100%;
+    width: 100%;
+
+    justify-content: center;
+    align-content: center;
+
+    .community-name {
+        margin: 0;
+
+        font-size: 100px;
+        text-align: center;
+    }
+
+
+    .community-join {
+        margin: 0;
+
+        font-size: 45px;
+        text-align: center;
+        text-decoration: none;
+
+        color: #5865F2;
+        animation: blink 1.5s infinite;
+    }
+
+    .links {
+        .github {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+
+            text-decoration: none;
+            color: #525252;
+        }
+    }
+}
