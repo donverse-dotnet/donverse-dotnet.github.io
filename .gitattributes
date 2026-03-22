@@ -1,0 +1,13 @@
+# すべてのテキストファイルはLF
+* text eol=lf
+
+# バイナリファイルは自動変換しない
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
