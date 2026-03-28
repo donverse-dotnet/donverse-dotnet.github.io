@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./roadmap.css" rel="stylesheet" type="text/css" />
+  <link type="image/x-icon" rel="icon" href="../../../assets/community-logo-modified.png">
+  <link type="image/x-icon" rel="shortcut icon" href="../../../assets/community-logo-modified.png">
+  <meta property="og:title" content="ロードマップ | Donverse コミュニティ" />
+  <meta property="og:description" content="Donverse コミュニティの今後の計画やマイルストーンを四半期ごとにご紹介します。" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/donverse-dotnet/donverse-dotnet.github.io/93ac5ebf266a4c8fde23aaebccfb30cd425488f3/assets/community-logo-modified.png" />
+  <meta property="og:url" content="https://lab.donverse.net" />
+  <meta property="og:type" content="website" />
+  <title>ロードマップ | Donverse コミュニティ</title>
+</head>
+
+<body style="display: flex; flex-direction: row; align-items: flex-start; justify-content: flex-start; height: 100vh; width: 100vw;">
+  <div class="sidebar" style="display: flex; flex-direction: column; align-items: center; justify-content: space-between; height: 100%; width: 80px; background-color: #000000;">
+    <a href="../../index.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 80px; width: 80px;">
+      <img src="../../../assets/community-logo-modified.png" alt="ロゴ" style="width: 60px; height: 60px;">
+    </a>
+    <div class="links">
+      <a href="../../join-discord.html">
+        <img src="../../../assets/discord-logo.png" alt="Discord" style="width: 30px; height: 30px; margin: 10px;">
+      </a>
+      <a href="https://github.com/donverse-dotnet">
+        <img src="../../../assets/github-logo.png" alt="GitHub" style="width: 30px; height: 30px; margin: 10px;">
+      </a>
+      <a href="https://x.com">
+        <img src="../../../assets/x-logo.png" alt="X" style="width: 30px; height: 30px; margin: 10px;">
+      </a>
+    </div>
+  </div>
+  <div class="content" style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start; height: 100%; width: 100%;">
+    <div class="header" style="height: 80px; width: calc(100% - 12px); padding-right: 12px; display: flex; flex-direction: row; align-items: center; justify-content: flex-end; background-color: #000000; color: white; font-family: 'oswald-bold'; font-size: 24px; gap: 15px;">
+      <h3><a href="../../staffs/index.html">スタッフ</a></h3>
+      <h3><a href="../../docs/index.html">ドキュメント</a></h3>
+      <h3><a href="../../contact-us.html">お問い合わせ</a></h3>
+      <button><a href="../../join-discord.html">参加</a></button>
+    </div>
+    <div class="main" style="height: 100%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 25px; background-color: #000000; color: white;">
+      <div class="main-content-wrapper" style="display: flex; flex-direction: row; align-items: start; justify-content: start; height: 100%; width: calc(100% - 50px); gap: 20px; padding: 25px; overflow-y: auto;">
+        <div class="roadmap-quarters" style="display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 250px;">
+          <div>2026 1Q</div>
+          <div>2026 2Q</div>
+          <div>2026 3Q</div>
+          <div>2026 4Q</div>
+        </div>
+        <div class="roadmap-branch" style="height: 100%; width: 100px; display: flex; flex-direction: column; align-items: start; justify-content: flex-start;">
+          <!-- Main vertical line -->
+          <div class="roadmap-branch-main" style="width: 2px; height: 85%; background-color: white;"></div>
+          <!-- Quarters dot -->
+          <div class="roadmap-branch-dot-q-wrapper" style="position: absolute; display: flex; flex-direction: column; align-items: start; justify-content: flex-start; gap: 250px; transform: translateX(-50%);">
+            <div class="roadmap-branch-dot-q" id="roadmap-quarter-1-dot" style="width: 20px; height: 20px; background-color: cyan; border-radius: 20px;"></div>
+            <div class="roadmap-branch-dot-q" id="roadmap-quarter-2-dot" style="width: 20px; height: 20px; background-color: cyan; border-radius: 20px;"></div>
+            <div class="roadmap-branch-dot-q" id="roadmap-quarter-3-dot" style="width: 20px; height: 20px; background-color: cyan; border-radius: 20px;"></div>
+            <div class="roadmap-branch-dot-q" id="roadmap-quarter-4-dot" style="width: 20px; height: 20px; background-color: cyan; border-radius: 20px;"></div>
+          </div>
+          <!-- Target dot -->
+          <div class="roadmap-branch-dot-t-wrapper" style="position: absolute; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 250px;">
+          </div>
+          <!-- Target dot to target title line -->
+          <div class="roadmap-branch-dot-tt-line-wrapper" style="position: absolute; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 250px;">
+          </div>
+          <!-- Next step -->
+          <div class="roadmap-next-step" style="position: absolute; bottom: 150px; left: 140px; display: flex; flex-direction: column; align-items: flex-start; justify-content: center;">
+            Next step...
+          </div>
+        </div>
+        <div class="roadmap-targets" style="position: relative; width: 250px; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start;">
+        </div>
+        <div class="roadmap-descriptions">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="./roadmap.js"></script>
+
+</html>
