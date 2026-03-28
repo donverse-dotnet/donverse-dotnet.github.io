@@ -107,7 +107,7 @@
 
 @font-face {
   font-family: "oswald-bold";
-  src: url(../assets/Oswald-Bold.ttf) format(truetype);
+  src: url(../../assets/Oswald-Bold.ttf) format(truetype);
 }
 
 @keyframes blink {
