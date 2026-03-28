@@ -1,0 +1,127 @@
+/* Page */
+.roadmap-target {
+  border: 1px solid transparent;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+/* Basics */
+@font-face {
+  font-family: "oswald-bold";
+  src: url(../../assets/Oswald-Bold.ttf) format(truetype);
+}
+
+@keyframes blink {
+  0% {
+    border: 2px solid #00b5dd;
+  }
+
+  50% {
+    border: 0px solid transparent;
+    border-color: transparent;
+  }
+
+  100% {
+    border: 2px solid #00b5dd;
+  }
+}
+
+.no-mevent {
+  pointer-events: none;
+}
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #eaeaea;
+  font-family: 'Inter', 'Roboto', Arial, sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+}
+
+/* Utility */
+.oswald-bold {
+  font-family: "oswald-bold";
+}
+
+a {
+  text-decoration: none;
+  color: #cfcfcf;
+  transition: color 0.2s;
+}
+
+a:hover {
+  text-shadow: 2px 2px 4px #00b5dd;
+  color: white;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid #00b5dd;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #00b5dd;
+  color: black;
+  text-shadow: none;
+}
+
+.oswald-bold {
+  font-family: "oswald-bold";
+}
+
+a {
+  text-decoration: none;
+  color: #cfcfcf;
+
+  &:hover {
+    text-shadow: 2px 2px 4px #00b5dd;
+    color: white;
+  }
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid #00b5dd;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #00b5dd;
+    color: black;
+    text-shadow: none;
+  }
+}
+
+span {
+  margin: 0;
+  padding: 0;
+  /* line-height: 12px; */
+}
