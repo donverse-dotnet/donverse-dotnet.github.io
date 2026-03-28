@@ -43,6 +43,10 @@
                         flex-direction: row; align-items: center; justify-content: flex-end;
                         background-color: #000000; color: white;
                         font-family: 'oswald-bold'; font-size: 24px; gap: 15px;">
+      <select onchange="window.localStorage.setItem('lang', this.value); location = `/${this.value}/index.html`;" style="background-color: #000000; color: white; font-family: 'oswald-bold'; font-size: 18px; padding: 5px;">
+        <option value="en">English</option>
+        <option value="jp">日本語</option>
+      </select>
       <h3><a href="../staffs/index.html">Staffs</a></h3>
       <h3><a href="../docs/index.html">Docs</a></h3>
       <h3><a href="../contact-us.html">Contact</a></h3>
