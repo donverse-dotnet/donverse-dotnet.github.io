@@ -1,0 +1,11 @@
+.discord {
+  font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #dcddde;
+  background-color: #36393f;
+  border: 1px solid #202225;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+}

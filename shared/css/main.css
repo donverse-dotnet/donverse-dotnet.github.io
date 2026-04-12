@@ -1,0 +1,136 @@
+/* Browser */
+@import url(./scroll-bar.css);
+@import url(./links.css);
+/* Private */
+@import url(./sticky.css);
+@import url(./colors.css);
+@import url(./fonts.css);
+/* Shared */
+@import url(./button.css);
+@import url(./icons.css);
+/* Third Party */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url(./third_party.css);
+
+@keyframes blink {
+  0% {
+    border: 2px solid #00b5dd;
+  }
+
+  50% {
+    border: 0px solid transparent;
+    border-color: transparent;
+  }
+
+  100% {
+    border: 2px solid #00b5dd;
+  }
+}
+
+.no-mevent {
+  pointer-events: none;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  text-align: center;
+  overflow: auto;
+
+  background-color: #525252;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.all_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.all_top_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.all_top_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #cfcfcf;
+  padding: 0;
+  margin: 0;
+
+  &:hover {
+    text-shadow: 2px 2px 4px #00b5dd;
+    color: white;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #525252;
+  text-align: center;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 80px;
+  background-color: #000000;
+}
+
+.sidebar-logo-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+}
+
+.sidebar-logo-img {
+  width: 60px;
+  height: 60px;
+}
+
+.sidebar-link-img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+span {
+  margin: 0;
+  padding: 0;
+}

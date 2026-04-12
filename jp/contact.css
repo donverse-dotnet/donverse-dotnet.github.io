@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "oswald-bold";
+    src: url(../assets/Oswald-Bold.ttf) format(truetype);
+}
+
+@keyframes blink {
+    0% {
+        border: 2px solid #00b5dd;
+    }
+
+    50% {
+        border: 0px solid transparent;
+        border-color: transparent;
+    }
+
+    100% {
+        border: 2px solid #00b5dd;
+    }
+}
+
+.no-mevent {
+    pointer-events: none;
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+    body {
+        margin: 0;
+        background-color: #000000;
+        color: white;
+        text-align: center;
+    }
+
+    /* contact-options, contact-link, contact-btn, contact-img, contact-img-invert を下部に移動 */
+
+    /* --- contact section layout --- */
+    .contact-options {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .contact-link {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .contact-btn {
+        height: 60px;
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border: 2px solid #00b5dd;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .contact-img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .contact-img-invert {
+        filter: invert(100%);
+    }
+
+    &:hover {
+        text-shadow: 2px 2px 4px #00b5dd;
+        color: white;
+    }
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid #00b5dd;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: #00b5dd;
+        color: black;
+        text-shadow: none;
+    }
+}
+
+span {
+    margin: 0;
+    padding: 0;
+    /* line-height: 12px; */
+}

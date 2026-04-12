@@ -1,0 +1,44 @@
+.icons_size_small {
+  width: 20px;
+  height: 20px;
+}
+
+.icons_size_medium {
+  width: 40px;
+  height: 40px;
+}
+
+.icons_size_large {
+  width: 60px;
+  height: 60px;
+}
+
+.icons_size_px_16 {
+  width: 16px;
+  height: 16px;
+}
+
+.icons_size_px_24 {
+  width: 24px;
+  height: 24px;
+}
+
+.icons_size_px_32 {
+  width: 32px;
+  height: 32px;
+}
+
+.icons_size_px_48 {
+  width: 48px;
+  height: 48px;
+}
+
+.icons_size_px_64 {
+  width: 64px;
+  height: 64px;
+}
+
+.icons_size_px_128 {
+  width: 128px;
+  height: 128px;
+}

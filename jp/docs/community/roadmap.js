@@ -1,71 +1,71 @@
 const roadmaps = [
   {
     id: 'quarter-1',
-    title: '第1四半期',
-    description: '第1四半期の計画はまだありません。',
+    title: 'Nothing in quarter 1',
+    description: 'No plans for quarter 1 yet.',
     q: 0,
     i: 0
   },
   {
     id: 'target-1',
-    title: 'コミュニティの立ち上げ',
-    description: 'コミュニティを立ち上げ、初期の存在感を確立します。',
+    title: 'Community launch',
+    description: 'Launch the community and establish initial presence.',
     q: 1,
     i: 0
   },
   {
     id: 'target-2',
-    title: 'プロジェクト1の発表と開発開始',
-    description: 'このコミュニティで最初のプロジェクトの開始を発表し、その開発を開始します。',
+    title: 'Announce the Project 1 and start development',
+    description: 'Announce the launch of our first project in this community and begin its development.',
     q: 1,
     i: 1
   },
   {
     id: 'target-3',
-    title: 'プロジェクト2の発表と開発開始',
-    description: 'このコミュニティで2番目のプロジェクトの開始を発表し、その開発を開始します。',
+    title: 'Announce the Project 2 and start development',
+    description: 'Announce the launch of our second project in this community and begin its development.',
     q: 1,
     i: 2
   },
   {
     id: 'target-4',
-    title: 'プロジェクト3の発表と開発開始',
-    description: 'このコミュニティで3番目のプロジェクトの開始を発表し、その開発を開始します。',
+    title: 'Announce the Project 3 and start development',
+    description: 'Announce the launch of our third project in this community and begin its development.',
     q: 1,
     i: 3
   },
   {
     id: 'target-5',
-    title: 'プロジェクト4の発表と開発開始',
-    description: 'このコミュニティで4番目のプロジェクトの開始を発表し、その開発を開始します。',
+    title: 'Announce the Project 4 and start development',
+    description: 'Announce the launch of our fourth project in this community and begin its development.',
     q: 1,
     i: 4
   },
   {
     id: 'target-6',
-    title: '第1回テストイベント',
-    description: 'このコミュニティで第1回のテストイベントを実施します。',
+    title: '1st test event',
+    description: 'Conduct the first test event in this community.',
     q: 2,
     i: 0
   },
   {
     id: 'target-7',
-    title: 'プロジェクト開発の継続',
-    description: 'このコミュニティで進行中のプロジェクトの開発を継続します。',
+    title: 'Continue project developments',
+    description: 'Continue the development of ongoing projects in this community.',
     q: 2,
     i: 1
   },
   {
     id: 'target-8',
-    title: '第2回テストイベント',
-    description: 'このコミュニティで第2回のテストイベントを実施します。',
+    title: '2nd test event',
+    description: 'Conduct the second test event in this community.',
     q: 3,
     i: 0
   },
   {
     id: 'target-9',
-    title: 'プロジェクト開発の継続',
-    description: 'このコミュニティで進行中のプロジェクトの開発を継続します。',
+    title: 'Continue project developments',
+    description: 'Continue the development of ongoing projects in this community.',
     q: 3,
     i: 1
   },

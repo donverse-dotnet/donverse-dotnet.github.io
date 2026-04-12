@@ -1,0 +1,10 @@
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-shadow: 2px 2px 4px #00b5dd;
+    transition: all 0.3s ease;
+    color: white;
+    text-decoration: underline;
+  }
+}

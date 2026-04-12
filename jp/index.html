@@ -1,70 +1,154 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./index.css" rel="stylesheet" type="text/css" />
-  <link type="image/x-icon" rel="icon" href="../assets/community-logo-modified.png">
-  <link type="image/x-icon" rel="shortcut icon" href="../assets/community-logo-modified.png">
-  <meta property="og:title" content="Donverse コミュニティ" />
-  <meta property="og:description" content="『Try more, create the best.』このコミュニティでは、Webサービスやアプリ開発、ゲーム大会、オンライン・オフラインイベント、語学やプログラミング学習などのコンテンツを扱っています。あなたもこのコンテンツのクリエイター、パフォーマー、または視聴者になれます。ご参加をお待ちしています！" />
+  <title>Donverse Community</title>
+
+  <meta property="og:title" content="Donverse Community" />
+  <meta property="og:description" content="「Try more, create the best. 」This community covers content such as web service and application development, game tournaments, online and offline events, and learning languages and programming. You too can become a creator, performer, or viewer of this content. We look forward to your participation!" />
   <meta property="og:image" content="https://raw.githubusercontent.com/donverse-dotnet/donverse-dotnet.github.io/93ac5ebf266a4c8fde23aaebccfb30cd425488f3/assets/community-logo-modified.png" />
   <meta property="og:url" content="https://lab.donverse.net" />
   <meta property="og:type" content="website" />
-  <title>Donverse コミュニティ</title>
+
+  <link rel="icon" href="../../assets/community-logo-modified.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../../assets/community-logo-modified.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="./index.css" type="text/css" />
 </head>
 
-<body style="display: flex; flex-direction: row; align-items: flex-start; justify-content: flex-start; height: 100vh; width: 100vw;">
-  <div class="sidebar" style="display: flex; flex-direction: column; align-items: center; justify-content: space-between; height: 100%; width: 80px; background-color: #000000;">
-    <a href="./index.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 80px; width: 80px;">
-      <img src="../assets/community-logo-modified.png" alt="ロゴ" style="width: 60px; height: 60px;">
-    </a>
-    <div class="links">
-      <a href="./join-discord.html">
-        <img src="../assets/discord-logo.png" alt="Discord" style="width: 30px; height: 30px; margin: 10px;">
-      </a>
-      <a href="https://github.com/donverse-dotnet">
-        <img src="../assets/github-logo.png" alt="GitHub" style="width: 30px; height: 30px; margin: 10px;">
-      </a>
-      <a href="https://x.com">
-        <img src="../assets/x-logo.png" alt="X" style="width: 30px; height: 30px; margin: 10px;">
-      </a>
-    </div>
-  </div>
-  <div class="content" style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start; height: 100%; width: 100%;">
-    <div class="header" style="height: 80px; width: calc(100% - 12px); padding-right: 12px; display: flex; flex-direction: row; align-items: center; justify-content: flex-end; background-color: #000000; color: white; font-family: 'oswald-bold'; font-size: 24px; gap: 15px;">
-      <select onchange="window.localStorage.setItem('lang', this.value); location = `/${this.value}/index.html`;" style="background-color: #000000; color: white; font-family: 'oswald-bold'; font-size: 18px; padding: 5px;">
-        <option value="jp">日本語</option>
-        <option value="en">English</option>
-      </select>
-      <h3><a href="./staffs/index.html">スタッフ</a></h3>
-      <h3><a href="./docs/index.html">ドキュメント</a></h3>
-      <h3><a href="./contact-us.html">お問い合わせ</a></h3>
-      <button><a href="./join-discord.html">参加</a></button>
-    </div>
-    <div class="main" style="height: 100%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 20px; background-color: #000000; color: white;">
-      <div class="main-content-wrapper" style="display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; height: 100%; width: calc(100% - 50px); gap: 20px; padding: 25px;">
-        <div class="text" style="margin-top: 450px; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 10px;">
-          <span style="font-size: 55px; line-height: 24px;">Welcome to</span>
-          <span style="font-size: 45px;">Donverse Community</span>
-          <span style="font-size: 75px;">たくさん試し、最高を作ろう。</span>
-          <div class="description" style="display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 10px; color: gray;">
-            <span style="line-height: 15px;">このコミュニティでは、ウェブサービスやアプリケーションの開発、ゲーム大会、オンラインおよびオフラインのイベント、言語やプログラミングの学習などのコンテンツを扱っています。</span>
-            <span style="line-height: 15px;">あなたもこのコンテンツのクリエイター、パフォーマー、または視聴者になることができます。</span>
-            <span style="line-height: 15px;">皆さんの参加をお待ちしています！</span>
-          </div>
-        </div>
-        <a href="./join-discord.html" style="height: 60px; width: 200px; display: flex; flex-direction: row; align-items: center; justify-content: center; margin-top: 12px;">
-          <button style="height: 100%; width: 100%; display: flex; flex-direction: row; align-items: center; justify-content: center;">
-            <img src="../assets/discord-logo.png" alt="Discord" style="width: 20px; height: 20px; margin-right: 10px;">
-            <span>Discordに参加</span>
-          </button>
+<body class="all_top_column">
+  <header class="sticky_top">
+    <div class="header_content_wrapper">
+      <div class="community_logo">
+        <a href="./index.html">
+          <img src="../../assets/community-logo-modified.png" alt="Donverse Community Logo">
+          <h1 class="oswald-bold">Donverse Community</h1>
         </a>
       </div>
+      <div class="header_navs">
+        <a href="./join-discord.html" class="header_nav discord">Discordに参加</a>
+        <a href="./index.html" class="header_nav">ホーム</a>
+        <a href="./docs/index.html" class="header_nav">ドキュメント</a>
+        <a href="./contact.html" class="header_nav">お問い合わせ</a>
+      </div>
     </div>
-  </div>
-  </div>
+  </header>
+  <main>
+    <div class="concept_wrapper">
+      <div class="concept">
+        <h1>
+          Try <span>more</span>, create the <span>best</span>.
+        </h1>
+        <h3>
+          多くを楽しみたい、最高のものを作りたい人のためのコミュニティ。
+        </h3>
+        <p>
+          このコミュニティは、Webサービスやアプリ開発、ゲーム大会、オンライン・オフラインイベント、言語やプログラミングの学習などのコンテンツを扱っています。あなたもこのコンテンツのクリエイター、パフォーマー、視聴者になれます。皆さんの参加をお待ちしています！
+        </p>
+        <div class="concept_buttons_wrapper">
+          <a href="./join-discord.html" class="join_discord_button">Discordに参加</a>
+          <a href="./docs/index.html" class="content_nav">ドキュメントを確認</a>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat_item">
+          <p>メンバー</p>
+          <h2 id="members_count">0</h2>
+        </div>
+        <div class="stat_item">
+          <p>イベント開催数</p>
+          <h2 id="events_count">0</h2>
+        </div>
+        <div class="stat_item">
+          <p>プロジェクト数</p>
+          <h2 id="projects_count">0</h2>
+        </div>
+        <div class="stat_item">
+          <span>この数字はフェイクです。</span>
+        </div>
+      </div>
+    </div>
+    <div class="features_wrapper">
+      <div class="features_title">
+        <h2>特徴</h2>
+      </div>
+      <hr class="features_divider" />
+      <div class="features_item">
+        <div class="features_item_title">
+          <i class="bi bi-film"></i>
+          <h3>多様なコンテンツ</h3>
+        </div>
+        <p>
+          Webサービスやアプリ開発、ゲーム大会、オンライン・オフラインイベント、言語やプログラミングの学習など、多岐にわたるコンテンツを提供しています。
+        </p>
+      </div>
+      <div class="features_item">
+        <div class="features_item_title">
+          <i class="bi bi-globe"></i>
+          <h3>グローバルなコミュニティ</h3>
+        </div>
+        <p>
+          Discordのウェブフックを使用して、世界中のメンバーとあなたの言語を使ってリアルタイムで交流できます。<br>※これは、DeepL APIを使用して、メッセージを自動的に翻訳することで実現しています。
+        </p>
+      </div>
+      <div class="features_item">
+        <div class="features_item_title">
+          <i class="bi bi-trophy"></i>
+          <h3>実績と成果</h3>
+        </div>
+        <p>
+          イベントの実績やプロジェクトの貢献は全てトラッキングされており、メンバーは自分の成長やコミュニティへの貢献を確認できます。<br>これは、 Donverse Hubにログインすることで確認できます。
+        </p>
+      </div>
+      <div class="features_item">
+        <div class="features_item_title">
+          <i class="bi bi-fire"></i>
+          <h3>情熱と活力</h3>
+        </div>
+        <p>
+          あなたのアイディアやプロジェクトを共有し、他のメンバーと協力して新しいことに挑戦できます。コミュニティは常に活発で、情熱的なメンバーが集まっています。
+        </p>
+      </div>
+    </div>
+    <div class="join_discord_wrapper">
+      <h2 class="join_discord_title">Discordに参加しよう</h2>
+      <a href="./join-discord.html" class="join_discord_button">Discordに参加</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer_links_wrapper">
+      <div class="footer_links_content">
+        <h2 class="footer_links_title">Links</h2>
+        <div class="footer_links">
+          <a href="./index.html" class="footer_link">ホーム</a>
+          <a href="./about.html" class="footer_link">ドキュメント</a>
+        </div>
+      </div>
+      <div class="footer_links_content">
+        <h2 class="footer_links_title">Accounts</h2>
+        <div class="footer_links">
+          <a href="https://twitter.com/donverse" class="footer_link">X (Twitter)</a>
+          <a href="https://www.youtube.com/donverse" class="footer_link">YouTube</a>
+          <a href="https://www.twitch.tv/donverse" class="footer_link">Twitch</a>
+        </div>
+      </div>
+      <div class="footer_links_content">
+        <h2 class="footer_links_title">Contact</h2>
+        <div class="footer_links">
+          <a href="mailto:contact@donverse.net" class="footer_link">メールでお問い合わせ</a>
+          <a href="https://github.com/donverse" class="footer_link">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer_copyright">
+      <p>&copy; 2024 Donverse. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
+
+<script src="../shared/js/community.js"></script>
 
 </html>

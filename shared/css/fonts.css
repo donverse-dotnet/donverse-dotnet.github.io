@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "oswald-bold";
+  src: url(../../assets/Oswald-Bold.ttf) format(truetype);
+}
+
+.oswald-bold {
+  font-family: "oswald-bold";
+}
